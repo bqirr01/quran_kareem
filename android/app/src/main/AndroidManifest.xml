@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myquran_app">
+
+   <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="myquran_app"
         android:name="${applicationName}"
